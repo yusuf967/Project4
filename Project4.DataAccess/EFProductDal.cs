@@ -30,9 +30,24 @@ namespace Project4.DataAccess
             Console.WriteLine("Ef ile eklendi.");
         }
 
+        public void Delete(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll()
         {
             return products;
+        }
+
+        public List<Product> GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Product product)
+        {
+            throw new NotImplementedException();
         }
     }
 }

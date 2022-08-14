@@ -26,12 +26,27 @@ namespace Project4.DataAccess
 
         public void Add(Product product)
         {
-            Console.WriteLine("Ado. NET ile Eklendi.");
+            Console.WriteLine("Ado. NET ile Eklendi."); 
+        }
+
+        public void Delete(Product product)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetAll()
         {
             return products;
+        }
+
+        public List<Product> GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Product product)
+        {
+            throw new NotImplementedException();
         }
     }
 }
